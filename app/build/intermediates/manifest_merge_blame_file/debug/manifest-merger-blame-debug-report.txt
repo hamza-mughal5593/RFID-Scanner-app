@@ -6,147 +6,146 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="18"
-8-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml
+8-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="26" />
-9-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml
+9-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.BLUETOOTH" />
-11-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:7:2-64
-11-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:7:19-62
+11-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:7:2-64
+11-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:7:19-62
 12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-12-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:8:5-73
-12-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:8:22-71
+12-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:8:5-73
+12-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:8:22-71
 13    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
-13-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:9:5-78
-13-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:9:22-76
+13-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:9:5-78
+13-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:9:22-76
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:10:5-79
-14-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:10:22-77
+14-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:10:5-79
+14-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:10:22-77
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:11:5-80
-15-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:11:22-78
+15-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:11:5-80
+15-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:11:22-78
 16    <uses-permission android:name="android.permission.WAKE_LOCK" />
-16-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:12:5-67
-16-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:12:22-65
+16-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:12:5-67
+16-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:12:22-65
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:13:5-80
-17-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:13:22-78
+17-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:13:5-80
+17-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:13:22-78
 18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-18-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:14:5-78
-18-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:14:22-76
+18-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:14:5-78
+18-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:14:22-76
 19    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-19-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:15:9-76
-19-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:15:26-74
+19-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:15:9-76
+19-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:15:26-74
 20
 21    <application
-21-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:18:5-88:19
+21-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:18:5-88:19
 22        android:name="com.example.module_android_bluedemo.MyApplication"
-22-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:23:9-73
+22-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:23:9-73
 23        android:allowBackup="true"
-23-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:19:9-35
+23-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:19:9-35
 24        android:debuggable="true"
 25        android:icon="@drawable/ic_launcher_bl"
-25-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:20:9-48
+25-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:20:9-48
 26        android:label="@string/app_name"
-26-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:21:9-41
-27        android:testOnly="true"
-28        android:theme="@style/AppTheme" >
-28-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:22:9-40
-29        <activity
-29-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:24:9-33:20
-30            android:name="com.example.module_android_bluedemo.MainActivity"
-30-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:25:13-76
-31            android:label="@string/app_name"
-31-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:27:13-45
-32            android:screenOrientation="portrait" >
-32-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:26:14-50
-33            <intent-filter>
-33-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:28:13-32:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:29:17-69
-34-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:29:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:31:17-77
-36-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:31:27-74
-37            </intent-filter>
-38        </activity>
-39        <activity
-39-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:35:11-39:20
-40            android:name="com.example.module_android_bluedemo.Sub4TabActivity"
-40-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:36:13-79
-41            android:screenOrientation="portrait" >
-41-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:37:15-51
-42        </activity>
-43        <activity
-43-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:40:10-44:20
-44            android:name="com.example.module_android_bluedemo.Sub1TabActivity"
-44-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:41:13-79
-45            android:screenOrientation="portrait" >
-45-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:42:15-51
-46        </activity>
-47        <activity
-47-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:45:11-49:20
-48            android:name="com.example.module_android_bluedemo.Sub3TabActivity"
-48-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:46:13-79
-49            android:screenOrientation="portrait" >
-49-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:47:15-51
-50        </activity>
-51        <activity
-51-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:50:11-54:24
-52            android:name="com.example.module_android_bluedemo.SubDebugActivity"
-52-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:51:13-80
-53            android:screenOrientation="portrait" >
-53-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:52:14-50
-54        </activity>
-55        <activity
-55-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:55:11-59:20
-56            android:name="com.example.module_android_bluedemo.SubBlueSetTabActivity"
-56-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:56:13-85
-57            android:screenOrientation="portrait" >
-57-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:57:14-50
-58        </activity>
-59        <activity
-59-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:60:12-64:20
-60            android:name="com.example.module_android_bluedemo.SubSystemActivity"
-60-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:61:13-81
-61            android:screenOrientation="portrait" >
-61-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:62:14-50
-62        </activity>
-63        <activity
-63-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:65:13-70:20
-64            android:name="com.example.module_android_bluedemo.OprationBLEActivity"
-64-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:66:13-83
-65            android:screenOrientation="portrait"
-65-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:68:14-50
-66            android:theme="@android:style/Theme.Dialog" >
-66-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:67:14-57
-67        </activity>
-68        <activity
-68-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:71:10-75:20
-69            android:name="com.example.module_android_bluedemo.SubCustomActivity"
-69-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:72:13-81
-70            android:screenOrientation="portrait" >
-70-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:73:14-50
-71        </activity>
-72        <activity
-72-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:76:9-81:20
-73            android:name="com.example.module_android_bluedemo.SubPathActivity"
-73-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:77:13-79
-74            android:screenOrientation="portrait"
-74-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:78:15-51
-75            android:windowSoftInputMode="stateHidden" >
-75-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:79:15-56
-76        </activity>
-77        <activity
-77-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:82:9-87:20
-78            android:name="com.example.module_android_bluedemo.UpdateActivity"
-78-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:83:14-79
-79            android:screenOrientation="portrait"
-79-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:84:15-51
-80            android:windowSoftInputMode="stateHidden" >
-80-->/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/AndroidManifest.xml:85:15-56
-81        </activity>
-82    </application>
-83
-84</manifest>
+26-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:21:9-41
+27        android:theme="@style/AppTheme" >
+27-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:22:9-40
+28        <activity
+28-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:24:9-33:20
+29            android:name="com.example.module_android_bluedemo.MainActivity"
+29-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:25:13-76
+30            android:label="@string/app_name"
+30-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:27:13-45
+31            android:screenOrientation="portrait" >
+31-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:26:14-50
+32            <intent-filter>
+32-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:28:13-32:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:29:17-69
+33-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:29:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:31:17-77
+35-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:31:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:35:11-39:20
+39            android:name="com.example.module_android_bluedemo.Sub4TabActivity"
+39-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:36:13-79
+40            android:screenOrientation="portrait" >
+40-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:37:15-51
+41        </activity>
+42        <activity
+42-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:40:10-44:20
+43            android:name="com.example.module_android_bluedemo.Sub1TabActivity"
+43-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:41:13-79
+44            android:screenOrientation="portrait" >
+44-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:42:15-51
+45        </activity>
+46        <activity
+46-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:45:11-49:20
+47            android:name="com.example.module_android_bluedemo.Sub3TabActivity"
+47-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:46:13-79
+48            android:screenOrientation="portrait" >
+48-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:47:15-51
+49        </activity>
+50        <activity
+50-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:50:11-54:24
+51            android:name="com.example.module_android_bluedemo.SubDebugActivity"
+51-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:51:13-80
+52            android:screenOrientation="portrait" >
+52-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:52:14-50
+53        </activity>
+54        <activity
+54-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:55:11-59:20
+55            android:name="com.example.module_android_bluedemo.SubBlueSetTabActivity"
+55-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:56:13-85
+56            android:screenOrientation="portrait" >
+56-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:57:14-50
+57        </activity>
+58        <activity
+58-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:60:12-64:20
+59            android:name="com.example.module_android_bluedemo.SubSystemActivity"
+59-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:61:13-81
+60            android:screenOrientation="portrait" >
+60-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:62:14-50
+61        </activity>
+62        <activity
+62-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:65:13-70:20
+63            android:name="com.example.module_android_bluedemo.OprationBLEActivity"
+63-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:66:13-83
+64            android:screenOrientation="portrait"
+64-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:68:14-50
+65            android:theme="@android:style/Theme.Dialog" >
+65-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:67:14-57
+66        </activity>
+67        <activity
+67-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:71:10-75:20
+68            android:name="com.example.module_android_bluedemo.SubCustomActivity"
+68-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:72:13-81
+69            android:screenOrientation="portrait" >
+69-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:73:14-50
+70        </activity>
+71        <activity
+71-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:76:9-81:20
+72            android:name="com.example.module_android_bluedemo.SubPathActivity"
+72-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:77:13-79
+73            android:screenOrientation="portrait"
+73-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:78:15-51
+74            android:windowSoftInputMode="stateHidden" >
+74-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:79:15-56
+75        </activity>
+76        <activity
+76-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:82:9-87:20
+77            android:name="com.example.module_android_bluedemo.UpdateActivity"
+77-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:83:14-79
+78            android:screenOrientation="portrait"
+78-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:84:15-51
+79            android:windowSoftInputMode="stateHidden" >
+79-->D:\Test\rfid-bluetooth\app\src\main\AndroidManifest.xml:85:15-56
+80        </activity>
+81    </application>
+82
+83</manifest>

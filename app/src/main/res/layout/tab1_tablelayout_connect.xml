@@ -3,62 +3,74 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FFFF00"
     android:scrollbars="vertical" >
 
     <TextView
         android:id="@+id/TextView_searchblue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#BFEFFF"
+        android:background="#000000"
         android:text="@string/tab1_connect_TextView_searchblue"
-        android:textColor="#ff1493"
+        android:paddingStart="10dp"
+        android:textColor="#ffffff"
         android:textSize="18sp" />
 
     <LinearLayout
+android:weightSum="5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
         <Button
+            android:layout_weight="1.2"
+            android:layout_margin="5dp"
+            android:background="#EFEFAE"
             android:id="@+id/button_search"
-            android:layout_width="70dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/tab1_connect_button_search" />
 
         <CheckBox
+
             android:id="@+id/checkBox_bth2"
-            android:layout_width="68dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="1.2"
             android:checked="true"
             android:text="@string/tab1_connect_checkBox_bth2"
             android:textSize="11sp" />
 
         <CheckBox
             android:id="@+id/checkBox_bthble"
-            android:layout_width="72dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="1.4"
             android:text="@string/tab1_connect_checkBox_bthble"
             android:textSize="13sp" />
 
         <Button
+            android:layout_weight="1.2"
+            android:layout_margin="5dp"
+            android:background="#EFEFAE"
             android:id="@+id/button_reset"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical|center_horizontal"
             android:text="@string/tab1_connect_button_reset" />
 
         <CheckBox
+
             android:id="@+id/checkBox_rematch"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:text="rebond"
             android:textSize="13sp"
-            android:visibility="invisible" />
+            android:visibility="gone" />
     </LinearLayout>
 
     <LinearLayout
+        android:background="#000000"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
@@ -68,6 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.09"
             android:gravity="center"
+            android:textColor="#ffffff"
             android:text="@string/tab1_connect_textView_sort"
             android:textAlignment="center" />
 
@@ -76,6 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.63"
+            android:textColor="#ffffff"
             android:gravity="center"
             android:text="@string/tab1_connect_textView_bluetooth" />
 
@@ -84,6 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.08"
+            android:textColor="#ffffff"
             android:gravity="center"
             android:text="@string/tab1_connect_textView_type" />
 
@@ -93,6 +108,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.08"
             android:gravity="center"
+            android:textColor="#ffffff"
             android:text="@string/tab1_connect_textView_rssi" />
     </LinearLayout>
 
@@ -107,9 +123,10 @@
         android:id="@+id/TextView_tb1opt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#BFEFFF"
+        android:background="#000000"
+        android:paddingStart="10dp"
         android:text="@string/tab1_connect_TextView_tb1opt"
-        android:textColor="#ff1493"
+        android:textColor="#ffffff"
         android:textSize="18sp" />
 
     <LinearLayout
@@ -117,6 +134,7 @@
         android:layout_height="wrap_content" >
 
         <TextView
+            android:textColor="#000000"
             android:id="@+id/textView_blue_addr"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -125,6 +143,7 @@
             android:text="@string/tab1_connect_textView_blue_addr" />
 
         <TextView
+            android:textColor="#000000"
             android:id="@+id/TextView_adr"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -165,6 +184,8 @@
                 android:text="@string/tab1_connect_textView_tb1tp" />
 
             <Spinner
+
+                android:popupBackground="#EFEFAE"
                 android:id="@+id/spinner_module"
                 android:layout_width="85dp"
                 android:layout_height="wrap_content"
@@ -177,6 +198,7 @@
                 android:text="@string/tab1_connect_textView_tb1btp" />
 
             <Spinner
+                android:popupBackground="#EFEFAE"
                 android:id="@+id/spinner_bluetype"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
@@ -190,6 +212,7 @@
                 android:text="@string/tab1_connect_textView_tb1antp" />
 
             <Spinner
+                android:popupBackground="#EFEFAE"
                 android:id="@+id/spinner_antports"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
@@ -200,9 +223,10 @@
         android:id="@+id/TextView_tb1conn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#BFEFFF"
+        android:background="#000000"
         android:text="@string/tab1_connect_TextView_tb1conn"
-        android:textColor="#ff1493"
+        android:textColor="#ffffff"
+        android:paddingStart="10dp"
         android:textSize="18sp" />
 
     <LinearLayout
@@ -210,11 +234,14 @@
         android:layout_height="wrap_content" >
 
         <Spinner
+            android:popupBackground="#EFEFAE"
             android:id="@+id/spinner_connectway"
             android:layout_width="90dp"
             android:layout_height="wrap_content" />
 
         <Button
+            android:layout_margin="5dp"
+            android:background="#EFEFAE"
             android:id="@+id/button_connect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -222,6 +249,8 @@
             android:text="@string/tab1_connect_button_connect" />
 
         <Button
+android:layout_margin="5dp"
+            android:background="#EFEFAE"
             android:id="@+id/button_disconnect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

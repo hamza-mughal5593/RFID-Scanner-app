@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/src/main/res/values-w820dp/dimens.xml",
+                    "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",

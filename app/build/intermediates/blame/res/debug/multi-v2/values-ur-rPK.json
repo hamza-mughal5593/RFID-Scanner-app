@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur-rPK/values-ur-rPK.xml",
+            "outputFile": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur-rPK\\values-ur-rPK.xml",
             "map": [
                 {
-                    "source": "/Users/hamzanawaz/.gradle/caches/transforms-2/files-2.1/33e02a9d7c275358c74a06398ba67768/appcompat-v7-25.1.0/res/values-ur-rPK/values-ur-rPK.xml",
+                    "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
