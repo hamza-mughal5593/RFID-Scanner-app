@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" >
+
+        <View
+            android:id="@+id/View04"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="#BFEFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+         <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tab4_qk_textView_tempu"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+           
+        </LinearLayout>
+    </FrameLayout>
+       
+
+        <Spinner
+            android:id="@+id/spinner_per"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/tab4_qk_textView_returnitem"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <CheckBox
+                        android:id="@+id/checkBox_readcount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tab4_qk_TextView_count" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_rssi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RSSI" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_ant"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/str_ant" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_frequency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tab4_fre_TextView_tb4fre" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <CheckBox
+                        android:id="@+id/checkBox_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tab4_qk_TextView_time" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_rfu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RFU" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_pro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tab4_qk_TextView_pro" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_tagdatalen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Data" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/str_enable"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/checkBox_nostop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_enable" />
+
+            <CheckBox
+                android:id="@+id/checkBox_1200handle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手持机模式" />
+
+            <CheckBox
+                android:id="@+id/checkBox_HB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HB" />
+
+            <Button
+                android:id="@+id/button_nostop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView_gpodemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/tab4_qk_TextView_qkebqmd"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_q1enable1200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tab4_qk_TextView_bt1" />
+
+        <Button
+            android:id="@+id/button_q2enable1200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tab4_qk_TextView_bt0" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/View_bluesetmac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bleop_View_bluesetmac" />
+
+        <TextView
+            android:id="@+id/textView_bleset"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.90" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/textView_cnstate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bleop_textView_cnstate" />
+
+        <TextView
+            android:id="@+id/textView_blestate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/textView_framet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bleop_textView_framet" />
+
+        <TextView
+            android:id="@+id/textView_uuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup_servieces"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radio_readuuid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bleop_radio_readuuid" />
+
+            <RadioButton
+                android:id="@+id/radio_writeuuid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bleop_radio_writeuuid" />
+            
+            <RadioButton
+                android:id="@+id/radio_passuuid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bleop_radio_passuuid" />
+            
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_read"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|center" />
+
+            <TextView
+                android:id="@+id/textView_write"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/textView_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="0800313131313131" >
+
+        <requestFocus />
+    </EditText>
+
+    <ExpandableListView
+        android:id="@+id/expandableListView_servies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="84.14" >
+
+    </ExpandableListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5" >
+
+        <Button
+            android:id="@+id/button_clearuuid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/bleop_button_clearuuid" />
+
+        <Button
+            android:id="@+id/button_refreshservie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bleop_button_refreshservie" />
+
+        <Button
+            android:id="@+id/button_into"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bleop_button_into" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+    </LinearLayout>
+
+</LinearLayout>

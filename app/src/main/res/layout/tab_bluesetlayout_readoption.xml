@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        
+            <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" >
+
+        <View
+            android:id="@+id/View04"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="#BFEFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/TextView_blreadopt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_blueset_read_TextView_blreadopt"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+           
+        </LinearLayout>
+    </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_blreadoptmils"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_blueset_read_textView_blreadoptmils"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText_bluetimeout"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_blue_getinvtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramget" />
+
+            <Button
+                android:id="@+id/button_blue_setinvtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_blreadoptfrainver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/tab_blueset_read_textView_blreadoptfrainver"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(0-1000ms)"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText_sendblueinven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_blue_getframe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramget" />
+
+            <Button
+                android:id="@+id/button_blue_setframe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView_blreadoppowset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/tab_blueset_read_TextView_blreadoppowset"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_set_pwerdec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(:)"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText_bluepower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_blue_getpower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramget" />
+
+            <Button
+                android:id="@+id/button_blue_setpower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="RSSI"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/checkBox_bluehrssi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_blueset_read_checkBox_bluehrssi" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_blue_gethrssi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramget" />
+
+            <Button
+                android:id="@+id/button_blue_sethrssi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.module_android_bluedemo.MainActivity" >
+
+    <item android:id="@+id/action_custom" android:title="@string/menu_1"></item>
+    <item android:id="@+id/action_system" android:title="@string/menu_2"></item>
+ 
+    <item android:id="@+id/action_debug" android:title="@string/menu_3"></item>
+    <item android:id="@+id/action_reg" android:title="Registers"></item>
+        <item android:id="@+id/action_cw" android:title="@string/action_cw"></item>
+    <!--升级入口不再从菜单 <item android:id="@+id/action_update" android:title="@string/menu_4"></item> -->
+    <item android:id="@+id/action_version" android:title="d1.22.8.1"></item>
+
+</menu>

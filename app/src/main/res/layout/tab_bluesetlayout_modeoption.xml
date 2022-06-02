@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        
+            <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" >
+
+        <View
+            android:id="@+id/View04"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="#BFEFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/TextView_blmodetr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_blueset_mode_TextView_blmodetr"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+           
+        </LinearLayout>
+    </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_bltoinit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tab_blueset_mode_button_bltoinit" />
+
+            <Button
+                android:id="@+id/button_bltopass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tab_blueset_mode_button_bltopass" />
+
+            <Button
+                android:id="@+id/button_boot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Boot" />
+
+            <Button
+                android:id="@+id/button_resetc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="reset" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView_blworkmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/tab_blueset_mode_TextView_blworkmode"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup_blue_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio_blmultag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab_blueset_mode_radio_blmultag" />
+
+                <RadioButton
+                    android:id="@+id/radio_blreadtagmem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab_blueset_mode_radio_blreadtagmem" />
+
+                <RadioButton
+                    android:id="@+id/radio_blsintag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab_blueset_mode_radio_blsintag" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView_blreturnopt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/tab_blueset_mode_TextView_blreturnopt"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <CheckBox
+                        android:id="@+id/checkBox_bluereadcount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tab_blueset_mode_checkBox_bluereadcount" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_bluerssi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RSSI" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_blueant"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/str_ant" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_bluefrequency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tab_blueset_mode_checkBox_bluefrequency" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <CheckBox
+                        android:id="@+id/checkBox_bluetime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tab_blueset_mode_checkBox_bluetime" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_bluerfu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RFU" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_bluepro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tab_blueset_mode_checkBox_bluepro" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_bluetagdatalen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Data" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_blgetworkmode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramget" />
+
+            <Button
+                android:id="@+id/button_blue_setworkmode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_blreadmem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/tab_blueset_mode_textView_blreadmem"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_blue_readbank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radio_blreser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tab_blueset_mode_radio_blreser" />
+
+            <RadioButton
+                android:id="@+id/radio41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="EPC" />
+
+            <RadioButton
+                android:id="@+id/radio42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TID" />
+
+            <RadioButton
+                android:id="@+id/radio43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="USER" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_blmodestaradr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_startadr4"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText_blue_staddr"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView_blmodelen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_len"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText_blue_length"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_blmodepwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_pwd"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText_blue_pwd"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_blue_getreadoption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramget" />
+
+            <Button
+                android:id="@+id/button_blue_setreadoption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

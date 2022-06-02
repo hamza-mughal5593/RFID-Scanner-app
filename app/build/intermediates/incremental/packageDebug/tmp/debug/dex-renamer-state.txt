@@ -1,0 +1,4 @@
+#Thu Jun 02 02:20:23 PKT 2022
+base.0=/Users/hamzanawaz/Downloads/ModuleAPI_Android_SDK-BT(v1.22.8.1d-2020911)/Demo/Module_Android_BlueDemo/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" >
+
+        <View
+            android:id="@+id/View4_inusl"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="#BFEFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/TextView_tb4motra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/tab4_usl_TextView_tb4motra"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+           
+        </LinearLayout>
+    </FrameLayout>
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_toinit_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tab4_usl_button_toinit_pass" />
+
+            <Button
+                android:id="@+id/button_topass_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tab4_usl_button_topass_pass" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_tb4invpro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/tab4_usl_textView_tb4invpro"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/checkBox_invgen2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:enabled="false"
+                android:text="Gen2"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox_inv6b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="6B"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox_invipx64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="ipx64"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox_invipx256"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="ipx256"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_invproget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/str_paramget" />
+
+            <Button
+                android:id="@+id/button_invproset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView_tb4oppro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/tab4_usl_TextView_tb4oppro"
+            android:textColor="#ff1493"
+            android:textColorLink="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup_pror"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:enabled="false"
+                    android:text="Gen2"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:text="6B"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:text="ipx64"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:text="ipx256"
+                    android:textSize="12sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_opproget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/str_paramget" />
+
+            <Button
+                android:id="@+id/button_opproset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/str_ant"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/checkBox_ant1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:enabled="false"
+                android:text="@string/tab4_usl_checkBox_ant1" />
+
+            <CheckBox
+                android:id="@+id/checkBox_ant2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/tab4_usl_checkBox_ant2" />
+
+            <CheckBox
+                android:id="@+id/checkBox_ant3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/tab4_usl_checkBox_ant3" />
+
+            <CheckBox
+                android:id="@+id/checkBox_ant4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/tab4_usl_checkBox_ant4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_invantsget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/str_paramget" />
+
+            <Button
+                android:id="@+id/button_invantsset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView_tb4rtm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/tab4_usl_TextView_tb4rtm"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_tb4invtm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/editText_invtime"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="50" />
+
+            <TextView
+                android:id="@+id/textView_read_inve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/editText_invsleep"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_invuslget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramget" />
+
+            <Button
+                android:id="@+id/button_invuslset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_SN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BFEFFF"
+            android:text="@string/Constr_sub4statics"
+            android:textColor="#ff1493"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/checkBox_chkstatics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_enable" />
+
+            <Button
+                android:id="@+id/button_isstatics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/checkBox_chkstoptime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tab4_usl_chkstoptime" />
+
+            <EditText
+                android:id="@+id/editText_stoptime"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="5000" />
+
+            <Button
+                android:id="@+id/button_stoptime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/checkBox_chklatetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="延时时间(ms)" />
+
+            <EditText
+                android:id="@+id/editText_latetime"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="5000" />
+
+            <Button
+                android:id="@+id/button_latetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/checkBox_autostopcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="循环次数" />
+
+            <EditText
+                android:id="@+id/editText_autostopcount"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/textView_snt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="间隔" />
+
+            <EditText
+                android:id="@+id/editText_testforsleep"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="3000" >
+            </EditText>
+
+            <Button
+                android:id="@+id/button_forstop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_paramset" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

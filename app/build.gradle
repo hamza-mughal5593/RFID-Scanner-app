@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "com.example.module_android_bluedemo"
+        minSdkVersion 18
+        targetSdkVersion 26
+        compileOptions.encoding = "GBK"   //添加此行即可
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:support-v4:25.1.0'
+    compile files('libs/ModuleAPI_Android_BT.jar')
+}

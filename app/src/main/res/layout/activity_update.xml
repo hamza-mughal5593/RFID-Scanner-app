@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/udTextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:background="#BFEFFF"
+        android:text="@string/systemlayout_button_setblueframe"
+        android:textColor="#ff1493"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/udtextView_framecmess"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.63"
+            android:text="frame count" />
+
+        <EditText
+            android:id="@+id/udeditText_framecount"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="160" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/udtextView_framemess2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="frame time" />
+
+        <EditText
+            android:id="@+id/udeditText_frametime"
+            android:layout_width="41dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="100" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/udtextView_framemess3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="send wait time" />
+
+        <EditText
+            android:id="@+id/udeditText_frameswtime"
+            android:layout_width="41dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="0" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/udTextView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:background="#BFEFFF"
+        android:text="Update load"
+        android:textColor="#ff1493"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/udbutton_frameset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:text="set" />
+
+    <Button
+        android:id="@+id/button_selectfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="浏览文件..." />
+
+    <Button
+        android:id="@+id/button_startupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始升级" />
+
+    <TextView
+        android:id="@+id/textView_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="path"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView_ps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
