@@ -232,17 +232,7 @@ public class UpdateActivity extends Activity {
 		 
 		//dialog2();
 		//dialog1();
-		/*
-		int permissionCheck1 = ContextCompat.checkSelfPermission(this.getApplicationContext(), Manifest.permission.READ_EXTERNAL_STORAGE);
-		int permissionCheck2 = ContextCompat.checkSelfPermission(this.getApplicationContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE);
-		if (permissionCheck1 != PackageManager.PERMISSION_GRANTED || permissionCheck2 != PackageManager.PERMISSION_GRANTED)
-		{
-			ActivityCompat.requestPermissions(this,
-					new String[]{Manifest.permission.READ_EXTERNAL_STORAGE,
-							Manifest.permission.WRITE_EXTERNAL_STORAGE},
-					124);
-		}
-		*/
+
 	}
 	
 	protected void dialog1() {

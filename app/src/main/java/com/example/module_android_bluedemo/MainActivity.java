@@ -37,7 +37,10 @@ import com.silionmodule.TagReadData;
 import com.silionmodule.TagProtocol.TagProtocolE;
 import com.tool.log.LogD;
 
+import android.Manifest;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.PopupMenu;
 import android.app.Application;
 import android.app.TabActivity;
@@ -414,6 +417,24 @@ public class MainActivity extends TabActivity { // ActionBarActivity
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		int permissionCheck1 = ContextCompat.checkSelfPermission(this.getApplicationContext(), Manifest.permission.READ_EXTERNAL_STORAGE);
+		int permissionCheck2 = ContextCompat.checkSelfPermission(this.getApplicationContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE);
+		int permissionCheck3 = ContextCompat.checkSelfPermission(this.getApplicationContext(), Manifest.permission.ACCESS_COARSE_LOCATION);
+		int permissionCheck4 = ContextCompat.checkSelfPermission(this.getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION);
+		if (permissionCheck1 != PackageManager.PERMISSION_GRANTED
+				|| permissionCheck2 != PackageManager.PERMISSION_GRANTED
+				|| permissionCheck3 != PackageManager.PERMISSION_GRANTED
+				|| permissionCheck4 != PackageManager.PERMISSION_GRANTED
+		)
+		{
+			ActivityCompat.requestPermissions(this,
+					new String[]{Manifest.permission.READ_EXTERNAL_STORAGE,
+							Manifest.permission.WRITE_EXTERNAL_STORAGE,
+							Manifest.permission.ACCESS_COARSE_LOCATION,
+							Manifest.permission.ACCESS_FINE_LOCATION},
+					124);
+		}
 
 		Application app = getApplication();
 		myapp = (MyApplication) app;
