@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "/Users/hamzanawaz/Desktop/RFIDapp/appcode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\values-v14\\styles.xml",
-                    "from": {
-                        "startLines": "7",
-                        "startColumns": "4",
-                        "startOffsets": "227",
-                        "endLines": "11",
-                        "endColumns": "12",
-                        "endOffsets": "487"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "311"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\values-v14\\values-v14.xml",
+                    "source": "/Users/hamzanawaz/.gradle/caches/transforms-2/files-2.1/33e02a9d7c275358c74a06398ba67768/appcompat-v7-25.1.0/res/values-v14/values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15,21,22,23,24,25,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -39,6 +20,25 @@
                         "endLines": "11,12,13,19,25,26,27,28,29,32,33,34",
                         "endColumns": "12,70,82,12,12,119,131,119,62,12,62,131",
                         "endOffsets": "587,658,741,1151,1573,1693,1825,1945,2008,2162,2225,2357"
+                    }
+                },
+                {
+                    "source": "/Users/hamzanawaz/Desktop/RFIDapp/appcode/app/src/main/res/values-v14/styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "227",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "487"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "311"
                     }
                 }
             ]

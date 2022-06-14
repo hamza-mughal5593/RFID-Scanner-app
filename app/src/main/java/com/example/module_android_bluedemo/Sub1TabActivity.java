@@ -389,16 +389,16 @@ public class Sub1TabActivity extends Activity {
 		//button_test3 = (Button) this.findViewById(R.id.button_test3);
 		 //*/
 		
-		String classsearch = myapp.spf.GetString("CLASSSEARCH");
-		if(classsearch!=null&&classsearch.equals("1"))
-			cb_blue.setChecked(true);
-		else 
-			cb_blue.setChecked(false);
-		String blesearch = myapp.spf.GetString("BLESEARCH");
-		if(blesearch!=null&&blesearch.equals("1"))
+//		String classsearch = myapp.spf.GetString("CLASSSEARCH");
+//		if(classsearch!=null&&classsearch.equals("1"))
+//			cb_blue.setChecked(true);
+//		else
+//			cb_blue.setChecked(false);
+//		String blesearch = myapp.spf.GetString("BLESEARCH");
+//		if(blesearch!=null&&blesearch.equals("1"))
 			cb_ble.setChecked(true);
-		else
-			cb_blue.setChecked(false);
+//		else
+//			cb_blue.setChecked(false);
 		
 		String modulestr = myapp.spf.GetString("MODULE");
 

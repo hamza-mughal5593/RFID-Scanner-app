@@ -90,38 +90,53 @@
         android:orientation="vertical" >
 
         <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1" >
+<LinearLayout
+    android:weightSum="2"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView_ant1_pwr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tab4_atpw_textView_ant1_pwr" />
 
-            <TextView
-                android:id="@+id/textView_ant1_pwr"
-                android:layout_width="60dp"
+    <Spinner
+        android:id="@+id/spinner_ant1rpow"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/tab4_atpw_textView_ant1_pwr" />
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textView_tab4wp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab4_atpw_textView_tab4wp" />
 
-            <Spinner
-                android:id="@+id/spinner_ant1rpow"
-                android:layout_width="95dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                <Spinner
+                    android:id="@+id/spinner_ant1wpow"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
 
-            <TextView
-                android:id="@+id/textView_tab4wp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/tab4_atpw_textView_tab4wp" />
 
-            <Spinner
-                android:id="@+id/spinner_ant1wpow"
-                android:layout_width="95dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
         </LinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 
@@ -153,6 +168,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 
@@ -184,6 +200,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 
@@ -261,7 +278,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/tab4_atpw_button_allset" />
+            android:text="set to the same power" />
     </LinearLayout>
 
 </LinearLayout>

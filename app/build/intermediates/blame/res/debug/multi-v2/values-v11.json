@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "/Users/hamzanawaz/Desktop/RFIDapp/appcode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\values-v11\\values-v11.xml",
+                    "source": "/Users/hamzanawaz/.gradle/caches/transforms-2/files-2.1/33e02a9d7c275358c74a06398ba67768/appcompat-v7-25.1.0/res/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,43,47,48,52,56,57,61,66,71,76,78,80,81,82,135,189",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "/Users/hamzanawaz/Desktop/RFIDapp/appcode/app/src/main/res/values-v11/styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",

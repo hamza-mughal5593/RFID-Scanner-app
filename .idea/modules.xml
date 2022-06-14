@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rfid-bluetooth.iml" filepath="$PROJECT_DIR$/.idea/modules/rfid-bluetooth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/rfid-bluetooth.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/rfid-bluetooth.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appcode.iml" filepath="$PROJECT_DIR$/.idea/modules/appcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/appcode.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/appcode.app.iml" />
     </modules>
   </component>
 </project>

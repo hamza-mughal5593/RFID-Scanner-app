@@ -74,7 +74,7 @@
     <string name="tab1_connect_button_reset">Reset </string>
     <string name="tab1_connect_checkBox_bth2">Usually search</string>
     <string name="tab1_connect_checkBox_bthble">BLE search</string>
-    <string name="tab1_connect_textView_sort">sort</string>
+    <string name="tab1_connect_textView_sort">Readers</string>
     <string name="tab1_connect_textView_bluetooth">Bluetooth set</string>
     <string name="tab1_connect_textView_type">Type</string>
     <string name="tab1_connect_textView_rssi">Rssi</string>

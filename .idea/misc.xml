@@ -8,6 +8,11 @@
         <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/tab1_tablelayout.xml" value="0.36666666666666664" />
         <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/tab1_tablelayout_connect.xml" value="0.36666666666666664" />
         <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/layout/listitemview.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/listitemview_inv.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/tab1_tablelayout_connect.xml" value="0.23958333333333334" />
+        <entry key="app/src/main/res/layout/tab4_tablelayout.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/tab4_tablelayout_antpow.xml" value="0.30512820512820515" />
       </map>
     </option>
   </component>

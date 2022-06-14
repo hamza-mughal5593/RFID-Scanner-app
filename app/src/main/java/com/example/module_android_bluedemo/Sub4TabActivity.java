@@ -67,7 +67,7 @@ public class Sub4TabActivity extends Activity {
 	String[] spipow = { "500", "600", "700", "800", "900", "1000", "1100",
 			"1200", "1300", "1400", "1500", "1600", "1700", "1800", "1900",
 			"2000", "2100", "2200", "2300", "2400", "2500", "2600", "2700",
-			"2800", "2900", "3000", "3100", "3200", "3300" };// 运行时添加
+			"2800", "2900", "3000"};// 运行时添加
 	String[] spiq = { "自动", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
 			"10", "11", "12", "13", "14", "15" };
 	String[] spinvmo;
@@ -234,12 +234,12 @@ public class Sub4TabActivity extends Activity {
 		// tabHost2.addTab(tabHost2.newTabSpec("tab1").setIndicator(createIndicatorView(this,
 		// tabHost2, "1111"))
 		// .setContent(R.id.tab11));
-		tabHost_set.addTab(tabHost_set
-				.newTabSpec("tab1")
-				.setIndicator(
-						createIndicatorView(this, tabHost_set,
-								MyApplication.Constr_sub4invenpra))
-				.setContent(R.id.tab4_sub1_invusl));
+//		tabHost_set.addTab(tabHost_set
+//				.newTabSpec("tab1")
+//				.setIndicator(
+//						createIndicatorView(this, tabHost_set,
+//								MyApplication.Constr_sub4invenpra))
+//				.setContent(R.id.tab4_sub1_invusl));
 		tabHost_set.addTab(tabHost_set
 				.newTabSpec("tab2")
 				.setIndicator(
@@ -252,39 +252,39 @@ public class Sub4TabActivity extends Activity {
 						createIndicatorView(this, tabHost_set,
 								MyApplication.Constr_sub4regionfre))
 				.setContent(R.id.tab4_sub3_invfre));
-		tabHost_set.addTab(tabHost_set
-				.newTabSpec("tab4")
-				.setIndicator(
-						createIndicatorView(this, tabHost_set,
-								MyApplication.Constr_sub4gen2opt))
-				.setContent(R.id.tab4_sub4_gen2));
-		tabHost_set.addTab(tabHost_set
-				.newTabSpec("tab5")
-				.setIndicator(
-						createIndicatorView(this, tabHost_set,
-								MyApplication.Constr_sub4invenfil))
-				.setContent(R.id.tab4_sub5_invfil));
-		tabHost_set.addTab(tabHost_set
-				.newTabSpec("tab6")
-				.setIndicator(
-						createIndicatorView(this, tabHost_set,
-								MyApplication.Constr_sub4addidata))
-				.setContent(R.id.tab4_sub6_emd));
-		tabHost_set.addTab(tabHost_set.newTabSpec("tab7")
-				.setIndicator(createIndicatorView(this, tabHost_set, "GPIO"))
-				.setContent(R.id.tab4_sub7_gpio));
-		tabHost_set.addTab(tabHost_set
-				.newTabSpec("tab8")
-				.setIndicator(
-						createIndicatorView(this, tabHost_set,
-								MyApplication.Constr_sub4others))
-				.setContent(R.id.tab4_sub8_others));
-		tabHost_set.addTab(tabHost_set
-				.newTabSpec("tab9")
-				.setIndicator(
-						createIndicatorView(this, tabHost_set,
-								MyApplication.Constr_sub4quickly))
-				.setContent(R.id.tab4_sub9_quickly));
+//		tabHost_set.addTab(tabHost_set
+//				.newTabSpec("tab4")
+//				.setIndicator(
+//						createIndicatorView(this, tabHost_set,
+//								MyApplication.Constr_sub4gen2opt))
+//				.setContent(R.id.tab4_sub4_gen2));
+//		tabHost_set.addTab(tabHost_set
+//				.newTabSpec("tab5")
+//				.setIndicator(
+//						createIndicatorView(this, tabHost_set,
+//								MyApplication.Constr_sub4invenfil))
+//				.setContent(R.id.tab4_sub5_invfil));
+//		tabHost_set.addTab(tabHost_set
+//				.newTabSpec("tab6")
+//				.setIndicator(
+//						createIndicatorView(this, tabHost_set,
+//								MyApplication.Constr_sub4addidata))
+//				.setContent(R.id.tab4_sub6_emd));
+//		tabHost_set.addTab(tabHost_set.newTabSpec("tab7")
+//				.setIndicator(createIndicatorView(this, tabHost_set, "GPIO"))
+//				.setContent(R.id.tab4_sub7_gpio));
+//		tabHost_set.addTab(tabHost_set
+//				.newTabSpec("tab8")
+//				.setIndicator(
+//						createIndicatorView(this, tabHost_set,
+//								MyApplication.Constr_sub4others))`
+//				.setContent(R.id.tab4_sub8_others));
+//		tabHost_set.addTab(tabHost_set
+//				.newTabSpec("tab9")
+//				.setIndicator(
+//						createIndicatorView(this, tabHost_set,
+//								MyApplication.Constr_sub4quickly))
+//				.setContent(R.id.tab4_sub9_quickly));
 
 		TabWidget tw = tabHost_set.getTabWidget();
 		tw.getChildAt(0).setBackgroundColor(Color.BLUE);

@@ -1,4 +1,4 @@
-#Fri Jun 03 15:59:03 PKT 2022
-base.0=D\:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Fri Jun 10 15:33:55 PKT 2022
+base.0=/Users/hamzanawaz/Desktop/RFIDapp/appcode/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
