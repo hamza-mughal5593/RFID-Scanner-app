@@ -5,8 +5,14 @@
       <map>
         <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/activity_main.xml" value="0.27314814814814814" />
         <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/fragment_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/listitemview_blue.xml" value="0.36666666666666664" />
+        <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/listviewlayout.xml" value="0.36666666666666664" />
         <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/tab1_tablelayout.xml" value="0.36666666666666664" />
         <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/tab1_tablelayout_connect.xml" value="0.36666666666666664" />
+        <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/tab4_tablelayout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/tab4_tablelayout_antpow.xml" value="0.36666666666666664" />
+        <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/tab4_tablelayout_invfre.xml" value="0.36666666666666664" />
+        <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/layout/tab4_tablelayout_invusl.xml" value="0.36666666666666664" />
         <entry key="..\:/Test/rfid-bluetooth/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
         <entry key="app/src/main/res/layout/listitemview.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/listitemview_inv.xml" value="0.3098958333333333" />

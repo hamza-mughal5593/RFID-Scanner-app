@@ -24,6 +24,7 @@
             android:layout_height="wrap_content" >
 
             <LinearLayout
+                android:visibility="gone"
                 android:id="@+id/tab4_sub1_invusl"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
@@ -61,6 +62,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="gone"
                 android:id="@+id/tab4_sub4_gen2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -73,6 +75,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="gone"
                 android:id="@+id/tab4_sub5_invfil"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -85,6 +88,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="gone"
                 android:id="@+id/tab4_sub6_emd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -97,6 +101,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="gone"
                 android:id="@+id/tab4_sub7_gpio"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -109,6 +114,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="gone"
                 android:id="@+id/tab4_sub8_others"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -121,6 +127,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="gone"
                 android:id="@+id/tab4_sub9_quickly"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

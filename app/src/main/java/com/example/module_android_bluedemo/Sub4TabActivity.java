@@ -2419,7 +2419,7 @@ public class Sub4TabActivity extends Activity {
 				View vw = tabIndicator.getChildAt(j);
 				vw.setBackgroundColor(Color.BLUE);
 				int tc = tabHost_set.getTabContentView().getChildCount();
-				for (int i = 0; i < tc; i++) {
+				for (int i = 0; i < 2; i++) {
 					if (i != j) {
 						View vw2 = tabIndicator.getChildAt(i);
 						vw2.setBackgroundColor(Color.TRANSPARENT);

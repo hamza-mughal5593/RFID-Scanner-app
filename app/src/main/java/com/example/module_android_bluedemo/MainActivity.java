@@ -826,6 +826,10 @@ public class MainActivity extends TabActivity { // ActionBarActivity
 		 * this.startActivityForResult(locationIntent,
 		 * REQUEST_CODE_LOCATION_SETTINGS); }
 		 */
+
+//		startActivity(new Intent(this, Sub4TabActivity.class));
+
+
 	}
 
 	public void onRequestPermissionsResult(int requestCode,
