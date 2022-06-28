@@ -829,7 +829,7 @@ public class Sub1TabActivity extends Activity {
 				
 				ev.setText(messit[1]);
 				// /*
-				arg1.setBackgroundColor(Color.YELLOW);
+				arg1.setBackgroundColor(Color.GREEN);
 				int fv=listview.getFirstVisiblePosition();
 				int gc=listview.getChildCount();
 				for (int i = 0; i < gc; i++) {

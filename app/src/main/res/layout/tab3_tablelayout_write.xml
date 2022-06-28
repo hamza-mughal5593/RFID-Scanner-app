@@ -2,8 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    xmlns:app="http://schemas.android.com/apk/res-auto"
 
+    android:orientation="vertical">
+<LinearLayout
+    android:visibility="gone"
+    android:id="@+id/write_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="30dp" >
@@ -18,17 +25,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-        <TextView
-        android:id="@+id/textView_snt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tab3_read_textView_rbk"
-        android:textColor="#ff1493"
-        android:textSize="18sp" />
-           
+            <TextView
+                android:id="@+id/textView_snt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab3_read_textView_rbk"
+                android:textColor="#ff1493"
+                android:textSize="18sp" />
+
         </LinearLayout>
     </FrameLayout>
-    
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -110,5 +117,20 @@
             android:layout_weight="1"
             android:text="@string/tab3_read_button_wepc" />
     </LinearLayout>
+
+</LinearLayout>
+
+
+    <GridView
+
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        />
 
 </LinearLayout>

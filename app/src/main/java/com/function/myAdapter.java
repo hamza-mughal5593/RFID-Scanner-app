@@ -41,7 +41,7 @@ public class myAdapter extends SimpleAdapter{
 				view = super.getView(position, convertView, parent);
 				}
 		int[] colors = {cr, Color.rgb(219, 238, 244) };//RGB颜色 
-//		view.setBackgroundColor(colors[position % 2]);// 每隔item之间颜色不同
+		view.setBackgroundColor(Color.WHITE);// 每隔item之间颜色不同
 		return super.getView(position, view, parent); 
 	}
 	

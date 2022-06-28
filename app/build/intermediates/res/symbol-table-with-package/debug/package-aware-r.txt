@@ -905,6 +905,7 @@ id expanded_menu
 id filedialogitem_img
 id filedialogitem_name
 id filedialogitem_path
+id gridview
 id home
 id homeAsUp
 id horizontalScrollView1
@@ -1220,6 +1221,7 @@ id up
 id useLogo
 id withText
 id wrap_content
+id write_main
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha

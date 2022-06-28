@@ -23,4 +23,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
     compile 'com.android.support:support-v4:25.1.0'
     compile files('libs/ModuleAPI_Android_BT.jar')
+
+    implementation 'com.opencsv:opencsv:4.6'
+
 }

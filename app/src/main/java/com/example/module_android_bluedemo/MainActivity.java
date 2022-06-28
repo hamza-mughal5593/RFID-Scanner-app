@@ -827,7 +827,7 @@ public class MainActivity extends TabActivity { // ActionBarActivity
 		 * REQUEST_CODE_LOCATION_SETTINGS); }
 		 */
 
-//		startActivity(new Intent(this, Sub4TabActivity.class));
+		startActivity(new Intent(this, Sub3TabActivity.class));
 
 
 	}

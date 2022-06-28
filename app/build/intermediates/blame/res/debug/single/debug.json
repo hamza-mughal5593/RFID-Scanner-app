@@ -36,12 +36,12 @@
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -104,12 +104,12 @@
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -232,16 +232,16 @@
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_color_highlight_material.xml.flat",
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -316,12 +316,12 @@
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\color-v23\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout_tab4_tablelayout_invusl.xml.flat",
-        "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\layout\\tab4_tablelayout_invusl.xml"
-    },
-    {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout_registerop.xml.flat",
         "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\layout\\registerop.xml"
+    },
+    {
+        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout_tab4_tablelayout_invusl.xml.flat",
+        "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\layout\\tab4_tablelayout_invusl.xml"
     },
     {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_textfield_search_material.xml.flat",
@@ -356,12 +356,12 @@
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout_tab_bluesetlayout.xml.flat",
-        "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\layout\\tab_bluesetlayout.xml"
-    },
-    {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout_tab_bluesetlayout.xml.flat",
+        "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\layout\\tab_bluesetlayout.xml"
     },
     {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
@@ -408,12 +408,12 @@
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -452,12 +452,12 @@
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -476,12 +476,12 @@
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_filedialog_root.png.flat",
         "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\drawable-hdpi\\filedialog_root.png"
+    },
+    {
+        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout_tab4_tablelayout_antpow.xml.flat",
@@ -556,12 +556,12 @@
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_sl.png.flat",
-        "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_sl.png"
-    },
-    {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_light.xml.flat",
         "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_sl.png.flat",
+        "source": "D:\\Test\\rfid-bluetooth\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_sl.png"
     },
     {
         "merged": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",

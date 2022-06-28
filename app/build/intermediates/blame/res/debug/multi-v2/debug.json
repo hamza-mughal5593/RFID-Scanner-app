@@ -53,21 +53,6 @@
             ]
         },
         {
-            "outputFile": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\values-mk-rMK_values-mk-rMK.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,163,286,390,498,584,689,808,891,973,1060,1166,1273,1374,1481,1592,1696,1794,1878",
-                        "endColumns": "107,122,103,107,85,104,118,82,81,86,105,106,100,106,110,103,97,83,100",
-                        "endOffsets": "158,281,385,493,579,684,803,886,968,1055,1161,1268,1369,1476,1587,1691,1789,1873,1974"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\values-sw_values-sw.arsc.flat",
             "map": [
                 {
@@ -78,6 +63,21 @@
                         "startOffsets": "55,158,266,389,487,595,685,790,907,989,1072,1154,1255,1364,1463,1570,1679,1784,1903,2000,2082",
                         "endColumns": "102,107,122,97,107,89,104,116,81,82,81,100,108,98,106,108,104,118,96,81,100",
                         "endOffsets": "153,261,384,482,590,680,785,902,984,1067,1149,1250,1359,1458,1565,1674,1779,1898,1995,2077,2178"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\values-mk-rMK_values-mk-rMK.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,286,390,498,584,689,808,891,973,1060,1166,1273,1374,1481,1592,1696,1794,1878",
+                        "endColumns": "107,122,103,107,85,104,118,82,81,86,105,106,100,106,110,103,97,83,100",
+                        "endOffsets": "158,281,385,493,579,684,803,886,968,1055,1161,1268,1369,1476,1587,1691,1789,1873,1974"
                     }
                 }
             ]
@@ -458,16 +458,16 @@
             ]
         },
         {
-            "outputFile": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
+            "outputFile": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\values-port_values-port.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\values-port\\values-port.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
                     }
                 }
             ]
@@ -488,16 +488,16 @@
             ]
         },
         {
-            "outputFile": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\values-port_values-port.arsc.flat",
+            "outputFile": "D:\\Test\\rfid-bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\hamza\\.gradle\\caches\\transforms-2\\files-2.1\\33e02a9d7c275358c74a06398ba67768\\appcompat-v7-25.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "55",
-                        "endOffsets": "106"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]
